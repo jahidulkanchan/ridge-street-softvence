@@ -5,14 +5,14 @@ html, body{
   font-family: "Inter", sans-serif;
 }
 @theme {
-   --color-main: #2c6644;
+   --color-main: #165932;
    --color-light-gray: #333333;
    --color-light-slate: #949293;
    --color-dark-bg: #02030b;
    --color-dark-bg: #02030b;
 }
 .demo{
-  --color-main: #2c6644;
+  --color-main: #165932;
    --color-light-gray: #333333;
    --color-dark-bg: #949293;
    --color-dark-bg: #02030b;
