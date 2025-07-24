@@ -8,14 +8,14 @@ html, body{
    --color-main: #165932;
    --color-light-gray: #333333;
    --color-light-slate: #949293;
-   --color-dark-bg: #02030b;
+   --color-icon-bg: #EEFFF5;
    --color-dark-bg: #02030b;
 }
 .demo{
   --color-main: #165932;
    --color-light-gray: #333333;
    --color-dark-bg: #949293;
-   --color-dark-bg: #02030b;
+   --color-dark-bg: #EEFFF5;
    --color-dark-bg: #02030b;
 }
 
