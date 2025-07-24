@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+html, body{
+  font-family: "Inter", sans-serif;
+}
+@theme {
+   --color-main: #2c6644;
+   --color-light-gray: #333333;
+   --color-light-slate: #949293;
+   --color-dark-bg: #02030b;
+   --color-dark-bg: #02030b;
+}
+.demo{
+  --color-main: #2c6644;
+   --color-light-gray: #333333;
+   --color-dark-bg: #949293;
+   --color-dark-bg: #02030b;
+   --color-dark-bg: #02030b;
+}
+
+
+
+@layer components{
+  .container{
+    @apply max-w-[1280px] mx-auto px-2 md:px-5;
+  }
+  .primary-btn{
+    @apply bg-main uppercase text-white shadow-lg shadow-light-gray/30  py-2.5 px-5 rounded-lg hover:bg-light-gray transition-colors duration-200;
+  }
+}

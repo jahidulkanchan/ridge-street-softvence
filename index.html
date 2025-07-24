@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ridge Street | Next Level Dream</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body class="bg-white">
+    <!-- ============ Header section Start ============= -->
+    <header class="w-full fixed top-0 z-50">
+      <nav class="py-1 px-2 md:px-4 bg-white/30 backdrop-blur-sm shadow-xs transition-all duration-300 mx-auto">
+        <div class="container flex items-center justify-between py-4">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="/" class="flex uppercase items-center font-extrabold text-4xl hover:opacity-90 transition-opacity">
+              <span class="text-main">Ridge</span> <span class="text-light-slate ml-2.5">Street</span>
+            </a>
+          </div>
+
+          <!-- Desktop Navigation -->
+          <ul class="hidden lg:flex text-light-gray items-center gap-10">
+            <li class="relative group">
+              <span class="absolute w-[30px] transition-all opacity-0 group-hover:opacity-100 group-hover:left-1/3 left-0 duration-300 origin-center h-[2.5px] bg-main -bottom-1.5"></span>
+              <a href="/" class="nav-link hover:text-main duration-150 text-base font-medium relative">Fix and Flip</a>
+            </li>
+            <li class="relative group">
+              <span class="absolute w-[30px] transition-all opacity-0 group-hover:opacity-100 group-hover:left-1/3 left-0 duration-300 origin-center h-[2.5px] bg-main -bottom-1.5"></span>
+              <a href="/services" class="nav-link hover:text-main duration-150 text-base font-medium relative">Rental Loans</a>
+            </li>
+            <li class="relative group">
+              <span class="absolute w-[30px] transition-all opacity-0 group-hover:opacity-100 group-hover:left-1/3 left-0 duration-300 origin-center h-[2.5px] bg-main -bottom-1.5"></span>
+              <a href="/projects" class="nav-link hover:text-main text-base font-medium relative">Where We Lend</a>
+            </li>
+            <li class="relative group">
+              <span class="absolute w-[30px] transition-all opacity-0 group-hover:opacity-100 group-hover:left-1/3 left-0 duration-300 origin-center h-[2.5px] bg-main -bottom-1.5"></span>
+              <a href="/about-us" class="nav-link hover:text-main text-base font-medium relative">About Us</a>
+            </li>
+            <li class="relative group">
+              <span class="absolute w-[30px] transition-all opacity-0 group-hover:opacity-100 group-hover:left-1/3 left-0 duration-300 origin-center h-[2.5px] bg-main -bottom-1.5"></span>
+              <a href="/about-us" class="nav-link hover:text-main text-base font-medium relative">Resources</a>
+            </li>
+          </ul>
+
+          <!-- Right Buttons -->
+          <div class="flex items-center gap-3">
+            <a href="/contact" class="primary-btn hidden md:inline-block">
+              Get Approved Online
+            </a>
+            <!-- Hamburger Button -->
+            <label for="mobile-menu-toggle" class="lg:hidden cursor-pointer"> <i class="w-9 h-9" data-lucide="align-left"></i> </label>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Mobile Menu Toggle -->
+      <input type="checkbox" id="mobile-menu-toggle" class="hidden peer" />
+      <div class="fixed top-0 left-0 w-full h-screen bg-white text-black transform px-2.5 py-5 -translate-x-full transition-transform duration-300 peer-checked:translate-x-0 lg:hidden z-40">
+        <div class="flex justify-between items-center mb-6">
+            <!-- Logo -->
+          <div class="logo">
+            <a href="/" class="flex uppercase items-center font-extrabold text-4xl hover:opacity-90 transition-opacity">
+              <span class="text-main">Ridge</span> <span class="text-light-slate ml-2.5">Street</span>
+            </a>
+          </div>
+          <label for="mobile-menu-toggle" class="cursor-pointer">
+            <i data-lucide="x" class="w-10 h-10"></i>
+          </label>
+        </div>
+
+        <ul class="flex flex-col w-fit gap-5 text-light-gray">
+          <li class="relative group">
+              <span class="absolute w-[30px] transition-all opacity-0 group-hover:opacity-100 group-hover:left-1/5 left-0 duration-300 origin-center h-[2.5px] bg-main -bottom-1.5"></span>
+              <a href="/" class="nav-link hover:text-main duration-150 text-base font-medium relative">Fix and Flip</a>
+            </li>
+            <li class="relative group">
+              <span class="absolute w-[30px] transition-all opacity-0 group-hover:opacity-100 group-hover:left-1/5 left-0 duration-300 origin-center h-[2.5px] bg-main -bottom-1.5"></span>
+              <a href="/services" class="nav-link hover:text-main duration-150 text-base font-medium relative">Rental Loans</a>
+            </li>
+            <li class="relative group">
+              <span class="absolute w-[30px] transition-all opacity-0 group-hover:opacity-100 group-hover:left-1/5 left-0 duration-300 origin-center h-[2.5px] bg-main -bottom-1.5"></span>
+              <a href="/projects" class="nav-link hover:text-main text-base font-medium relative">Where We Lend</a>
+            </li>
+            <li class="relative group">
+              <span class="absolute w-[30px] transition-all opacity-0 group-hover:opacity-100 group-hover:left-1/5 left-0 duration-300 origin-center h-[2.5px] bg-main -bottom-1.5"></span>
+              <a href="/about-us" class="nav-link hover:text-main text-base font-medium relative">About Us</a>
+            </li>
+            <li class="relative group">
+              <span class="absolute w-[30px] transition-all opacity-0 group-hover:opacity-100 group-hover:left-1/5 left-0 duration-300 origin-center h-[2.5px] bg-main -bottom-1.5"></span>
+              <a href="/about-us" class="nav-link hover:text-main text-base font-medium relative">Resources</a>
+            </li>
+            <a href="/contact" class="primary-btn inline-block md:hidden">
+              Get Approved Online
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- ============ Header section End ============= -->
+    <!-- ============ Start ============= -->
+    <!-- ============ End ============= -->
+    <section class="mt-24">
+      <div class="text-red-500">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, accusamus nemo cumque laudantium rem voluptatem minus nihil id, nisi aut officiis voluptates fugit iusto neque nam molestias
+        saepe vitae alias?
+        <span></span>
+      </div>
+    </section>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
