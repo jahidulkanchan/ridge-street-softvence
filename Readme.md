@@ -1,6 +1,6 @@
 # Ridge Street - Real Estate Lending Website
 
-![Ridge Street Logo](./assets/favicon.png)
+![Ridge Street Logo](./public/assets/favicon.png)
 
 A modern financial services website specializing in hard money loans for real estate investors in Florida and Texas. The site showcases loan products, service areas, client testimonials, and provides an online application portal.
 
