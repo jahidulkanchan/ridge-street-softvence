@@ -29,22 +29,22 @@ body {
   }
   /*============= CTA Button ==============*/
   .animated-btn {
-    @apply bg-main relative flex w-fit items-center justify-between gap-4 rounded-tl-md rounded-bl-md px-3 md:px-5 md:py-4 py-3 text-white uppercase transition-all duration-150;
+    @apply bg-main relative flex w-fit items-center justify-between gap-4 rounded-tl-md rounded-bl-md px-3 py-3 font-semibold text-white uppercase transition-all duration-150 md:px-5 md:py-4;
   }
   .animated-btn .skew-icon-content {
     @apply group-hover:bg-main border-main absolute top-0 -right-[10px] flex h-full w-[50px] -skew-x-12 items-center justify-center rounded-tr-md rounded-br-md border-4 bg-white duration-200;
   }
   .animated-btn .skew-icon {
-    @apply text-main w-8 h-8 md:h-10 md:w-10 skew-x-12 duration-200 group-hover:text-white;
+    @apply text-main h-8 w-8 skew-x-12 duration-200 group-hover:text-white md:h-10 md:w-10;
   }
   .animated-btn-reverse {
-    @apply text-main relative uppercase flex w-fit items-center justify-between gap-2 rounded-tl-md rounded-bl-md bg-white px-3 md:px-5 md:py-4 py-3 transition-all duration-150;
+    @apply text-main relative flex w-fit items-center justify-between gap-2 rounded-tl-md rounded-bl-md bg-white px-3 py-3 font-semibold uppercase transition-all duration-150 md:px-5 md:py-4;
   }
   .animated-btn-reverse .skew-icon-content {
-    @apply bg-main absolute top-0  -right-[10px] flex h-full w-[50px] -skew-x-12 items-center justify-center rounded-tr-md rounded-br-md border-4 border-white duration-200 group-hover:bg-white;
+    @apply bg-main absolute top-0 -right-[10px] flex h-full w-[50px] -skew-x-12 items-center justify-center rounded-tr-md rounded-br-md border-4 border-white duration-200 group-hover:bg-white;
   }
   .animated-btn-reverse .skew-icon {
-    @apply group-hover:text-main w-8 h-8 md:h-10 md:w-10 skew-x-12 text-white duration-200;
+    @apply group-hover:text-main h-8 w-8 skew-x-12 text-white duration-200 md:h-10 md:w-10;
   }
 }
 @layer utilities {
