@@ -1,6 +1,8 @@
 # Ridge Street - Real Estate Lending Website
 
 ![Ridge Street Logo](./public/assets/favicon.png)
+The website is currently deployed and available at:  
+[https://ridge-street-ui.netlify.app/](https://ridge-street-ui.netlify.app/)
 
 A modern financial services website specializing in hard money loans for real estate investors in Florida and Texas. The site showcases loan products, service areas, client testimonials, and provides an online application portal.
 
@@ -26,4 +28,4 @@ A modern financial services website specializing in hard money loans for real es
 
 1. Clone the repository:
    ```bash
-   git clone [repository-url]
+   git clone [https://github.com/jahidulkanchan/ridge-street-softvence.git]
