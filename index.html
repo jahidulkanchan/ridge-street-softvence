@@ -198,9 +198,39 @@
       </div>
     </header>
     <!-- ============ Header section End ============= -->
-    <!-- ============ Start ============= -->
-    <!-- ============ End ============= -->
-    <section class="min-h-[50px] pt-20"></section>
+    <!-- ============ Hero Section Start ============= -->
+    <section
+      class="hero-section relative mt-[75px] flex items-center justify-center bg-[url(/assets/hero-banner.png)] bg-cover bg-right py-26 md:mt-[85px] md:min-h-[600px] 2xl:min-h-[700px]"
+    >
+      <img
+        class="layer-mask absolute top-0 right-0 left-0 z-0 mx-auto h-full w-full object-cover"
+        src="./assets/hero-layer-mask.png"
+        alt="layer-mask"
+      />
+      <div class="relative z-10 container">
+        <div class="heading-content lg:w-6/12">
+          <h2
+            class="text-main text-shadow-icon-bg/80 mb-3 text-3xl font-bold uppercase text-shadow-lg md:text-5xl md:font-extrabold"
+          >
+            Florida and Texas Hard Money Lenders
+          </h2>
+          <p
+            class="text-light-gray text-shadow-icon-bg/80 text-xl font-medium text-shadow-xs md:text-3xl md:font-semibold"
+          >
+            Fast Closing Fix and Flip and Rental Loans For Your Investment
+            Properties.
+          </p>
+          <!-- CTA Button -->
+          <a href="/" class="animated-btn group mt-8">
+            <p class="pr-10">Get Approved Online</p>
+            <div class="skew-icon-content">
+              <i class="skew-icon" data-lucide="chevrons-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- ============ Hero Section End ============= -->
     <!-- ============ Loan Product Section Start ============= -->
     <section class="loan-product-section py-8 md:py-16">
       <div class="container">
@@ -218,11 +248,11 @@
             class="card text-main group group relative min-h-[450px] overflow-hidden rounded-2xl bg-white px-5 py-8 shadow-2xl backdrop-blur-xl transition-all duration-200 hover:text-white md:px-8"
           >
             <!-- =========== Slice bg Animation ============= -->
-            <div
-              class="slice-bg bg-main transition-all absolute -top-[40px] left-0 z-[-1] h-[50px] w-full -rotate-3 duration-200 group-hover:h-8/12 group-hover:rotate-0"
+             <div
+              class="slice-bg bg-main absolute -top-[40px] -left-1 group-hover:left-0 z-[-1] h-[50px] w-full -rotate-3 transition-all duration-200 group-hover:h-8/12 group-hover:rotate-0"
             ></div>
             <div
-              class="slice-bg bg-main transition-all absolute -bottom-[47px] left-1 group-hover:left-0 z-[-1] h-[50px] w-full -rotate-6 duration-200 group-hover:h-8/12 group-hover:rotate-0"
+              class="slice-bg bg-main absolute -bottom-[47px] left-1 z-[-1] h-[50px] w-full -rotate-6 transition-all duration-200 group-hover:left-0 group-hover:h-8/12 group-hover:rotate-0"
             ></div>
             <div
               class="bg-main z-10 mx-auto block w-fit rounded-xl px-3 py-4 duration-200 group-hover:hidden"
@@ -280,10 +310,10 @@
           >
             <!-- =========== Slice bg Animation ============= -->
             <div
-              class="slice-bg bg-main transition-all absolute -top-[40px] left-0 z-[-1] h-[50px] w-full -rotate-3 duration-200 group-hover:h-8/12 group-hover:rotate-0"
+              class="slice-bg bg-main absolute -top-[40px] -left-1 group-hover:left-0 z-[-1] h-[50px] w-full -rotate-3 transition-all duration-200 group-hover:h-8/12 group-hover:rotate-0"
             ></div>
             <div
-              class="slice-bg bg-main transition-all absolute -bottom-[47px] left-1 group-hover:left-0 z-[-1] h-[50px] w-full -rotate-6 duration-200 group-hover:h-8/12 group-hover:rotate-0"
+              class="slice-bg bg-main absolute -bottom-[47px] left-1 z-[-1] h-[50px] w-full -rotate-6 transition-all duration-200 group-hover:left-0 group-hover:h-8/12 group-hover:rotate-0"
             ></div>
             <div
               class="bg-main mx-auto block w-fit rounded-xl px-3 py-4 duration-200 group-hover:hidden"
@@ -340,11 +370,11 @@
             class="card text-main group relative min-h-[450px] overflow-hidden rounded-2xl bg-white px-5 py-8 shadow-2xl backdrop-blur-xl transition-all duration-200 hover:text-white md:px-8"
           >
             <!-- =========== Slice bg Animation ============= -->
-            <div
-              class="slice-bg bg-main absolute -top-[40px] left-0 z-[-1] h-[50px] w-full -rotate-3 transition-all duration-200 group-hover:h-8/12 group-hover:rotate-0"
+             <div
+              class="slice-bg bg-main absolute -top-[40px] -left-1 group-hover:left-0 z-[-1] h-[50px] w-full -rotate-3 transition-all duration-200 group-hover:h-8/12 group-hover:rotate-0"
             ></div>
             <div
-              class="slice-bg bg-main transition-all absolute -bottom-[47px] left-1 group-hover:left-0 z-[-1] h-[50px] w-full -rotate-6 duration-200 group-hover:h-8/12 group-hover:rotate-0"
+              class="slice-bg bg-main absolute -bottom-[47px] left-1 z-[-1] h-[50px] w-full -rotate-6 transition-all duration-200 group-hover:left-0 group-hover:h-8/12 group-hover:rotate-0"
             ></div>
             <div
               class="bg-main mx-auto block w-fit rounded-xl px-3 py-4 duration-200 group-hover:hidden"
@@ -586,7 +616,9 @@
     </section>
     <!-- ============ Why Choose Us End ============= -->
     <!-- ============ Testimonial Section Start ============= -->
-    <section class="testimonial-section from-main bg-gradient-to-t from-50% to-transparent to-50% -mt-1 overflow-hidden md:pt-10">
+    <section
+      class="testimonial-section from-main -mt-1 overflow-hidden bg-gradient-to-t from-50% to-transparent to-50% md:pt-10"
+    >
       <div class="container px-0">
         <!-- Heading -->
         <div class="mb-12 text-center">
@@ -598,9 +630,7 @@
         </div>
 
         <!-- Swiper -->
-        <div
-          class=" px-2.5"
-        >
+        <div class="px-2.5">
           <div class="swiper relative py-20">
             <div class="swiper-wrapper py-20">
               <!-- Client 1  -->
@@ -1366,7 +1396,40 @@
     <!-- ============ Resources Section End ============= -->
     <!-- ============ Start ============= -->
     <!-- ============ End ============= -->
-
+    <!-- ============ Get Start Section Start ============= -->
+    <section
+      class="get-start-section relative mt-[75px] flex items-center justify-center bg-[url(/assets/hero-banner.png)] bg-cover bg-right py-26 md:mt-[85px] md:min-h-[600px] 2xl:min-h-[800px]"
+    >
+      <img
+        class="layer-mask absolute top-0 right-0 left-0 z-0 mx-auto h-full w-full object-cover"
+        src="./assets/footer-layer-mask.png"
+        alt="layer-mask"
+      />
+      <div class="relative z-10 container">
+        <div class="heading-content lg:w-6/12">
+          <h2
+            class="text-main text-shadow-icon-bg/80 mb-3 w-10/12 text-3xl font-bold uppercase text-shadow-lg md:text-5xl md:font-extrabold"
+          >
+            Ready To Get Started
+          </h2>
+          <p
+            class="text-light-gray text-shadow-icon-bg/80 text-lg text-shadow-xs md:text-2xl"
+          >
+            With Ridge Street, obtaining a private mortgage loan is easier than
+            you think! You can get pre-approved online and a Term Sheet that
+            Meet’s your needs will be sent to you within the hour.
+          </p>
+          <!-- CTA Button -->
+          <a href="/" class="animated-btn group mt-8">
+            <p class="pr-10">Get Pre-Approved Online</p>
+            <div class="skew-icon-content">
+              <i class="skew-icon" data-lucide="chevrons-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- ============ Get Start Section End ============= -->
     <!-- ============ Footer Section Start ============= -->
     <footer class="bg-main py-8 text-white">
       <div
@@ -1374,8 +1437,10 @@
       >
         <!-- Company -->
         <div>
-          <h3 class="mb-3 text-xl md:text-2xl font-medium md:font-bold">Company</h3>
-          <ul class="space-y-1 text-sm sm:text-base text-white/90">
+          <h3 class="mb-2 text-xl font-medium md:text-2xl md:font-bold">
+            Company
+          </h3>
+          <ul class="space-y-1 text-sm text-white/90 sm:text-base">
             <li><a href="/about">About</a></li>
             <li><a href="/fix-and-flip-loans">Fix And Flip Loans</a></li>
             <li><a href="/dscr-rental-loans">DSCR Rental Loans</a></li>
@@ -1386,8 +1451,10 @@
             </li>
           </ul>
 
-          <h4 class="mt-4 text-xl md:text-2xl font-medium md:font-bold">Where We Lend</h4>
-          <ul class="space-y-1 text-sm sm:text-base text-white/90 mt-2">
+          <h4 class="mt-4 text-xl font-medium md:text-2xl md:font-bold">
+            Where We Lend
+          </h4>
+          <ul class="mt-2 space-y-1 text-sm text-white/90 sm:text-base">
             <li><a href="/florida">Florida</a></li>
             <li><a href="/texas">Texas</a></li>
             <li><a href="/georgia">Georgia</a></li>
@@ -1396,8 +1463,10 @@
 
         <!-- Top Cities -->
         <div>
-          <h3 class="mb-3 text-xl md:text-2xl font-medium md:font-bold">Top Cities We Lend In</h3>
-          <ul class="space-y-1 text-sm sm:text-base text-white/90">
+          <h3 class="mb-2 text-xl font-medium md:text-2xl md:font-bold">
+            Top Cities We Lend In
+          </h3>
+          <ul class="space-y-1 text-sm text-white/90 sm:text-base">
             <li><a href="#">Orlando</a></li>
             <li><a href="#">Tampa</a></li>
             <li><a href="#">Miami</a></li>
@@ -1411,8 +1480,10 @@
 
         <!-- Top Resources -->
         <div>
-          <h3 class="mb-3 text-xl md:text-2xl font-medium md:font-bold">Top Resources</h3>
-          <ul class="space-y-1 text-sm sm:text-base text-white/90">
+          <h3 class="mb-2 text-xl font-medium md:text-2xl md:font-bold">
+            Top Resources
+          </h3>
+          <ul class="space-y-1 text-sm text-white/90 sm:text-base">
             <li><a href="#">Loan Calculator</a></li>
             <li><a href="#">What is a Hard Money Loan</a></li>
             <li><a href="#">What is a Hard Money Loan</a></li>
@@ -1420,8 +1491,10 @@
             <li><a href="#">Best Cities for Fix and Flips</a></li>
           </ul>
 
-          <h4 class="mt-4 text-xl md:text-2xl font-medium md:font-bold">Useful Link</h4>
-          <ul class="space-y-1 text-sm sm:text-base text-white/90 mt-2">
+          <h4 class="mt-4 text-xl font-medium md:text-2xl md:font-bold">
+            Useful Link
+          </h4>
+          <ul class="mt-2 space-y-1 text-sm text-white/90 sm:text-base">
             <li><a href="/privacy-policy">Privacy Policy</a></li>
             <li><a href="/terms">Terms of Use</a></li>
           </ul>
@@ -1429,14 +1502,18 @@
 
         <!-- Contact -->
         <div>
-          <h3 class="mb-3 text-xl md:text-2xl font-medium md:font-bold">Contact Us</h3>
-          <ul class="space-y-2 text-sm md:text-base text-white/90">
+          <h3 class="mb-2 text-xl font-medium md:text-2xl md:font-bold">
+            Contact Us
+          </h3>
+          <ul class="space-y-2 text-sm text-white/90 md:text-base">
+            <p>Email</p>
             <li class="flex items-center gap-2">
               <i data-lucide="mail" class="h-5 w-5"></i>
               <a href="mailto:loans@ridgestreetcap.com"
                 >loans@ridgestreetcap.com</a
               >
             </li>
+            <p>Direct/Text</p>
             <li class="flex items-center gap-2">
               <i data-lucide="phone" class="h-5 w-5"></i>
               <span>Phone: 786-304-2751</span>
