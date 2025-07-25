@@ -1,6 +1,6 @@
 # Ridge Street - Real Estate Lending Website
 
-![Ridge Street Logo](./public/assets/favicon.png)
+![Ridge Street ScreenShot](./public/assets/project-picture.webp)
 The website is currently deployed and available at:  
 [https://ridge-street-ui.netlify.app/](https://ridge-street-ui.netlify.app/)
 
