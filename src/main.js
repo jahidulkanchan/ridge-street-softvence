@@ -4,6 +4,7 @@ import "swiper/css/navigation";
 import Swiper from "swiper";
 import { Navigation } from "swiper/modules";
 
+// Testimonial Swiper ======================
 new Swiper(".swiper", {
   modules: [Navigation],
   loop: true,
@@ -24,6 +25,7 @@ new Swiper(".swiper", {
     },
   },
 });
+// Project Swiper  =========================
 new Swiper(".project-swiper", {
   modules: [Navigation],
   loop: true,
